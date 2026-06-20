@@ -1,0 +1,117 @@
+{
+    "hello":"hello landing page",
+    "Signin":"Signin",
+    "You will pay":"You will pay",
+    "per":"per",
+    "per night":"per night",
+    "Explore ALL Rooms": "Explore ALL Rooms",
+    "Explore Paaragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cum, nulla",
+    "All Rooms": "All Rooms",
+    "About":"About",
+    "Review":"Review",
+    "Message":"Message",
+    "Comment":"Comment",
+    "nav":{
+        "Home":"Home",
+        "Explore":"Explore",
+        "Reviews":"Reviews"
+    },
+    "home-land":{
+        "header":"header",
+        "most-picked":"Most Picked",
+        "off":"OFF",
+        "features":"",
+        "feadback":"feadback",
+        "footer": "footer"
+    },
+    "header":{
+        "header works!":"header works!",
+        "Forget Busy Work,":"Forget Busy Work,",
+        "Start Next Vacation":"Start Next Vacation",
+        "We provide what you need to enjoy your holiday with family.":"We provide what you need to enjoy your holiday with family.",
+        "Time to make another memorable moments.":"Time to make another memorable moments.",
+        "Start Booking":"Start Booking",
+        "pick a date":"pick a date",
+        "How long you will stay?":"How long you will stay?",
+        "Continue to Book":"Continue to Book",
+        "You will pay":"You will pay",
+        "Capacity":"Capacity"
+    },
+    "features":{
+      "features-work!":"Houses with beauty backyard",
+     "Featurs-title": "Hotels with large living room",
+     "title":"Ads ",
+     "town":"Tabby Town",
+     "town-paragh":"Gunung Batu, Indonesia",
+     "Anggana":"Anggana",
+     "Anggana-paragh":"Bogor, Indonesia",
+     "Seattle":"Seattle Rain",
+     "Seattle-paragh":"Jakarta, Indonesia",
+     "Wodden ":"Wodden Pit ",
+     "Wodden-paragh":"Wonosobo, Indonesia",
+     "Park":"Green Park ",
+     "Park-paragh":"Tangerang, Indonesia",
+     "Podo":"Podo Wae",
+     "Podo-paragh":"Madiun, Indonesia",
+     "Silver":"Silver Rain",
+     "Silver-paragh":"Bandung, Indonesia",
+     "Cashville":"Cashville",
+     "Cashville-paragh":"Kemang, Indonesia",
+     "Wood":"PS Wood",
+     "Wood-paragh":"Depok, Indonesia",
+     "Five":"One Five",
+     "Five-paragh":"Jakarta, Indonesia",
+     "Minimal":"Minimal",
+     "Minimal-paragh":"Bogor, Indonesia",
+     "Stays":"Stays Home ",
+     "Stays-paragh":"Wonosobo, Indonesia"
+    },
+    "feadback":{
+        "feadback":"Happy Family",
+        "feadbackContent": "What a great trip with my family and ",
+        "feadbackContentOne": "I should try again next time soon ...",
+        "feadbackParagraph": "Angga, Product Designer"
+    },
+    "footer": {
+            "Stay":" Stay ",
+            "cation":" cation.",
+            "headerOne":" We kaboom your beauty holiday",
+            "headerTwo":" instantly and memorable.",
+
+            "Beginners":" For Beginners. ",
+            "BeginnersHeaderOne":" New Account",
+            "BeginnersHeaderTwo":" Start Booking a Room",
+            "BeginnersHeaderThree":"Use Payments",
+
+            "Explore":" Explore Us. ",
+            "ExploreHeaderOne":" Our Careers",
+            "ExploreHeaderTwo":" Privacy",
+            "ExploreHeaderThree":" Terms & Conditions ",
+
+            "Connect":" Connect Us. ",
+            "ConnectHeaderOne":" support@staycation.id",
+            "ConnectHeaderTwo":" 021 - 2208 - 1996",
+            "ConnectHeaderThree":" Staycation, Kemang, Jakarta",
+
+            "Copyright":"Copyright 2019 • All rights reserved • Staycation"
+    },
+    "favourites":{
+      "title":"Your Favourites",
+      "paragraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cum, nulla",
+      "home":"Home",
+      "subTitle":"Your Rooms",
+      "perNight":"per night"
+        },
+        "numbers":{
+          "1":"1",
+          "2":"2",
+          "3":"3",
+          "4":"4",
+          "5":"5",
+          "6":"6",
+          "7":"7",
+          "8":"8",
+          "9":"9",
+          "10":"10"
+        }
+}

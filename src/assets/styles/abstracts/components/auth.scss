@@ -1,0 +1,112 @@
+@import "/src/assets/styles/abstracts/_variables.scss";
+
+.auth {
+  .row {
+    height: 100vh;
+    padding: 1rem;
+  }
+}
+  .card-auth {
+    width: 75%;
+    margin: auto;
+    margin-top: 1rem;
+    .header-auth {
+      margin-bottom: 2rem;
+      h2 {
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+      span {
+        color: $text-secondryColor;
+        font-weight: bold;
+      }
+    }
+    .form-group {
+      margin-bottom: 1.5rem !important;
+      label {
+        color: $text-secondryColor;
+        margin: 5px;
+      }
+      input,select {
+        background-color: #f5f6f8;
+      }
+      a {
+        color: $text-secondryColor;
+        font-weight: bold;
+      }
+    }
+    .eye-icon{
+      position: absolute;
+      top: 58%;
+      right: 5%;
+      z-index: 100;
+    }
+  }
+  .caption {
+    color: $text-whiteColor;
+    h2 {
+      font-weight: 600;
+    }
+  }
+
+
+#signin {
+  .cover {
+    background-image: linear-gradient(
+        51deg,
+        rgba(23, 33, 33, 0.15) -22.39%,
+        rgba(0, 0, 0, 0.2) 50%
+      ),
+    url(../../../images/signin.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0.9375rem;
+    color: $text-whiteColor;
+  }
+}
+
+#signup {
+  .cover {
+    background-image: linear-gradient(
+        51deg,
+        rgba(23, 33, 33, 0.15) -22.39%,
+        rgba(0, 0, 0, 0.2) 50%
+      ),
+      url(../../../images/signup.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0.9375rem;
+  }
+}
+#forgetPassword {
+  .cover {
+   background-image: linear-gradient(
+    51deg,
+    rgba(23, 33, 33, 0.15) -22.39%,
+    rgba(0, 0, 0, 0.2) 50%),
+    url(../../../../assets/images/Forget.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0.9375rem;
+    color: $text-whiteColor;
+  }
+}
+
+#resetPassword {
+  .cover {
+    background-image: linear-gradient(
+      51deg,
+      rgba(23, 33, 33, 0.15) -22.39%,
+      rgba(0, 0, 0, 0.2) 50%
+    ),
+    url(../../../images/ResetPassword.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0.9375rem;
+    color: $text-whiteColor;
+  }
+}

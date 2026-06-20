@@ -1,0 +1,174 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$hotel-primary: mat.define-palette(mat.$indigo-palette);
+$hotel-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$hotel-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$hotel-theme: mat.define-light-theme((
+  color: (
+    primary: $hotel-primary,
+    accent: $hotel-accent,
+    warn: $hotel-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($hotel-theme);
+
+
+@import "/src/assets/styles/layout.scss";
+
+html, body { height: 100%;   font-family: 'Poppins', sans-serif;
+}
+body { margin: 0;}
+
+// dark mode
+@import '../node_modules/@angular/material/theming';
+
+
+@mixin body-theme($theme) {
+  $_background: map-get($theme, background);
+  $app-background-color: mat-color($_background, background);
+
+  body {
+    background-color: $app-background-color;
+  }
+}
+.dark-theme {
+   body {
+    background-color: #000;
+    color: #ffffff !important;
+    h4,h3,h2{
+      color: #fff !important;
+    }
+    .text-muted{
+      color: #fff !important;
+    }
+    transition: all 0.2s linear;
+   }
+   button{
+    background: rgb(30, 31, 31) !important;
+    border: rgb(255, 255, 255, .5) solid 1px;
+   }
+   #navbar,#nav-land{
+    border: rgb(255, 255, 255, .5) solid 1px;
+    background: rgb(30, 31, 31) !important;
+    color: #fff !important;
+    a{
+      color: #fff !important;
+    }
+    span{
+      color: #ffffff !important;
+    }
+    .dropdown{
+      .btn{
+        background: rgb(30, 31, 31) !important;
+        color: #fff !important;
+      }
+    }
+  }
+  #sidebar{
+    background: rgb(30, 31, 31) !important;
+  }
+  select,option{
+    background: #000 !important;
+    color: #fff !important;
+
+  }
+  .input-group,input,textarea,.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating){
+    background: #000 !important;
+    color: #fff !important;
+    .input-group-text {
+      color: #fff !important;
+    }
+  }
+  //table
+  thead>tr{
+    border: rgb(255, 255, 255, .5) solid 1px;
+  }
+  th{
+    background: #000 !important;
+    color: #fff !important;
+  }
+  tr{
+    border-radius: 15px !important;
+    background: #000 !important;
+  }
+  //angular material
+
+  //paginator
+  mat-paginator{
+    background: #000 !important;
+    border: rgb(255, 255, 255, .5) solid 1px;
+    color: #fff !important;
+    .mat-mdc-form-field-type-mat-select:not(.mat-form-field-disabled) .mat-mdc-text-field-wrapper {
+      background: #000 !important;
+      border: rgb(255, 255, 255, .5) solid 1px;
+      .mat-mdc-select-value-text , .mat-mdc-select-arrow svg{
+        color: #fff !important;
+      }
+    }
+    .mat-mdc-icon-button {
+      background: #000 !important;
+      border: rgb(255, 255, 255, .5) solid 1px;
+      .mat-mdc-paginator-icon {
+        background: #fff !important;
+        color: #fff !important;
+      }
+    }
+  }
+  //landing page &auth
+    #header,#about{
+      label{
+        color: #fff !important;
+      }
+      nz-date-picker , span{
+        background: #000 !important;
+      }
+      
+    }
+    #feadBack{
+      .fa-regular{
+        color: #fff !important;
+      }
+    }
+    #room-details{
+      li,a{
+        color: #fff !important;
+      }
+    }
+    #treasure{
+      h5{
+        color: #fff !important;
+      }
+    } 
+    #feadBack{
+      .rate{
+        color: #fff !important;
+      }
+    }
+    #signin,#signup,#forgetPassword,#resetPassword{
+      label{
+        color: #fff !important;
+      }
+    }
+
+}
